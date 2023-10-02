@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PurelifeMedical\\PurelifeMedical\\PurelifeMedical\\PurelifeMedical.csproj": {}
+    "D:\\PurelifeMedical\\PurelifeMedical\\PurelifeMedical.csproj": {}
   },
   "projects": {
-    "D:\\PurelifeMedical\\PurelifeMedical\\PurelifeMedical\\PurelifeMedical.csproj": {
+    "D:\\PurelifeMedical\\PurelifeMedical\\PurelifeMedical.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PurelifeMedical\\PurelifeMedical\\PurelifeMedical\\PurelifeMedical.csproj",
+        "projectUniqueName": "D:\\PurelifeMedical\\PurelifeMedical\\PurelifeMedical.csproj",
         "projectName": "PurelifeMedical",
-        "projectPath": "D:\\PurelifeMedical\\PurelifeMedical\\PurelifeMedical\\PurelifeMedical.csproj",
+        "projectPath": "D:\\PurelifeMedical\\PurelifeMedical\\PurelifeMedical.csproj",
         "packagesPath": "C:\\Users\\Blend\\.nuget\\packages\\",
-        "outputPath": "D:\\PurelifeMedical\\PurelifeMedical\\PurelifeMedical\\obj\\",
+        "outputPath": "D:\\PurelifeMedical\\PurelifeMedical\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,56 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "PagedList": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "PagedList.Core.Mvc": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

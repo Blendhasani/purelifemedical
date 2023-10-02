@@ -1,18 +1,119 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+}
+.badge {
+    display: inline-block;
+    font-size: 0.75em;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.4rem;
+}
+
+.badge-light-info {
+    color: #0dcaf0;
+    background-color: #e7f8fc;
+}
+
+.badge-light-primary {
+    color: #3f6ad8;
+    background-color: #e2e3f7;
+}
+
+.fs-7 {
+    font-size: 0.875rem;
+}
+
+.gs-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/*.navbar {
+    
+    top: 0;
+    z-index: 2;
+    height: 100%;
+    background-color: #D4E5F9;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 27px;
+}
+.container-fluid {
+z-index:0;
+}*/
+
+/*.lightblue {
+    background-color: #D4E5F9;
+}
+
+.darkblue {
+    color: #1c3484;
+}
+
+.nav-link {
+    font-size: 17px;
+    padding-left: 0px !important;
+    display: flex;
+    align-items: center;
+}
+.ikona {
+    width: 2em;
+    height: 2em;
+}*/
+.logopurelife {
+    width:160px;
+    padding-right:20px;
+}
+.smallnavlogomobile {
+    width: 35px;
+}
+.dropdown-menu-dark .dropdown-item {
+    font-size: 10px;
+    color: #0a3765;
+}
+
+
+.menu-links-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.profile-dropdown-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-grow: 1;
+    margin-top: auto;
+}
+
+.dropdown-menu {
+    min-width: 0;
+}
+
+/*/**/
+@media screen and (max-width: 800px) {
+    .baba {
+        margin-left: 200px !important;
+    }
 }
