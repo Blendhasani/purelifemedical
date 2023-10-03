@@ -1,0 +1,51 @@
+﻿@model Shteti
+
+@{
+	ViewData["Title"] = "Edit";
+}
+
+<div class="card card-custom">
+	<div class="card-header">
+		<h3 class="card-title">
+			Perditeso shtetin
+		</h3>
+	</div>
+	<!--begin::Form-->
+	<form asp-action="Edit" enctype="multipart/form-data">
+		<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+		<input type="hidden" asp-for="Id" />
+
+		<div class="card-body">
+
+
+			<div class="form-group row">
+				<label class="col-2 col-form-label" asp-for="Emri" class="control-label"></label>
+				<div class="col-10">
+					<input class="form-control" type="text" id="example-search-input" asp-for="Emri" class="form-control" />
+					<span asp-validation-for="Emri" class="text-danger"></span>
+				</div>
+			</div>
+
+
+		</div>
+		<div class="card-footer">
+			<div class="row">
+				<div class="col-2">
+				</div>
+				<div class="col-10">
+					<div class="form-group" style="display:flex;flex-direction:row;justify-content:end;">
+						<input type="submit" value="Save" class="btn btn-primary me-4" />
+						<a asp-action="Index" class="btn btn-secondary">Cancel</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</form>
+</div>
+
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}

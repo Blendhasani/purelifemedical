@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\PurelifeMedical\PurelifeMedical
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/PurelifeMedical/PurelifeMedical/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PurelifeMedical/PurelifeMedical/Views/Admin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PurelifeMedical/PurelifeMedical/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/PurelifeMedical/PurelifeMedical/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -24,12 +36,72 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/PurelifeMedical/PurelifeMedical/Views/Nacionaliteti/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFjaW9uYWxpdGV0aVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PurelifeMedical/PurelifeMedical/Views/Nacionaliteti/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFjaW9uYWxpdGV0aVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PurelifeMedical/PurelifeMedical/Views/Nacionaliteti/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFjaW9uYWxpdGV0aVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PurelifeMedical/PurelifeMedical/Views/Nacionaliteti/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFjaW9uYWxpdGV0aVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PurelifeMedical/PurelifeMedical/Views/Nacionaliteti/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFjaW9uYWxpdGV0aVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PurelifeMedical/PurelifeMedical/Views/Rolet/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PurelifeMedical/PurelifeMedical/Views/Rolet/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PurelifeMedical/PurelifeMedical/Views/Rolet/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PurelifeMedical/PurelifeMedical/Views/Rolet/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PurelifeMedical/PurelifeMedical/Views/Rolet/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/PurelifeMedical/PurelifeMedical/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/PurelifeMedical/PurelifeMedical/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PurelifeMedical/PurelifeMedical/Views/Shteti/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2h0ZXRpXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PurelifeMedical/PurelifeMedical/Views/Shteti/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2h0ZXRpXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PurelifeMedical/PurelifeMedical/Views/Shteti/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2h0ZXRpXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PurelifeMedical/PurelifeMedical/Views/Shteti/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2h0ZXRpXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PurelifeMedical/PurelifeMedical/Views/Shteti/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2h0ZXRpXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/PurelifeMedical/PurelifeMedical/Views/_ViewImports.cshtml]

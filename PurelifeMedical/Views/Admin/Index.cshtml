@@ -1,0 +1,63 @@
+﻿@inject UserManager<ApplicationUser> UserManager;
+@using Microsoft.AspNetCore.Identity;
+@model IEnumerable<UsersRoles>
+
+<div class="mt-4 mb-5" style="display:flex;flex-direction:row;width:80%;justify-content:space-between;">
+	<h2>Perdoruesit</h2>
+	<a asp-action="Create" asp-controller="Admin" class="btn btn-primary">Krijo</a>
+
+
+</div>
+
+<div class="table-responsive">
+	<table class="table table-rounded table-striped border gy-7 gs-7">
+		<thead class="thead-dark">
+
+			<tr class="fw-semibold fs-6 text-gray-800 border-bottom border-gray-200">
+				<th>#</th>
+				<th>Emri</th>
+				<th>Email</th>
+				<th>Roli</th>
+				<th>Actions</th>
+			</tr>
+
+		</thead>
+		<tbody>
+			@{
+				int row = 1;
+			}
+			@foreach (var item in Model)
+			{
+				var user = await UserManager.FindByIdAsync(item.User.Id);
+				var userName = user?.FullName;
+
+
+				<tr>
+					<td>@row</td>
+					<td>@userName</td>
+					<td>@item.User.Email</td>
+					<td>@string.Join(", ", item.Roles)</td>
+					<td>
+						<div class="dropdown">
+							<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+								Veprime
+							</a>
+
+							<ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+								@*<li><a class="dropdown-item" href="#"><i class="fa-regular fa-pen-to-square"></i> Ndrysho</a></li>*@
+
+								<form asp-action="DeleteUser" asp-route-id="@item.User.Id" method="post" aria-labelledby="dropdownMenuLink">
+									<button type="submit" aria-labelledby="dropdownMenuLink" style="border:none;background-color:white;margin-left:10px;"><i class="fa-solid fa-trash"></i>  Fshij</button>
+								</form>
+							</ul>
+						</div>
+					</td>
+				</tr>
+				row++;
+			}
+
+
+
+		</tbody>
+	</table>
+</div>
